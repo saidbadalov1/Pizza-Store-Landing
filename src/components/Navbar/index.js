@@ -5,10 +5,6 @@ const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
-      <Cart to="/cart">
-            <button>Cart</button>
-            <span>0</span>
-        </Cart>
         <NavLink to='/'>Pizza</NavLink>
         <NavIcon onClick={toggle}>
           <p>Menu</p>
