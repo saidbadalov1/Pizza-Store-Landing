@@ -43,3 +43,30 @@ export const Bars = styled(FaPizzaSlice)`
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;
+
+export const Cart = styled(Link)`
+  position: absolute;
+  left: 10px;
+  top: 10px;
+
+  button{
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  span{
+    background-color: red;
+    position: absolute;
+    padding: 2px 8px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+`
